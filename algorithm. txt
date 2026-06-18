@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    int s, D, m, q;
+
+    // Prompt user for input
+    cout << "Enter two integers: ";
+    cin >> a >> b;
+
+    // Perform calculations
+    s = a + b;
+    D = a - b;
+    m = a * b;
+
+    // Display basic operations
+    cout << "Sum = " << s << "\n";
+    cout << "Difference = " << D << "\n";
+    cout << "Product = " << m << "\n";
+
+    // Check for division by zero
+    if (b != 0) {
+        q = a / b;
+        cout << "Quotient = " << q << "\n";
+    } else {
+        cout << "Quotient = Undefined (Division by zero)\n";
+    }
+
+    return 0;
+}

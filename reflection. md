@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Initializing variables with sample values to prevent garbage data
+    int a = 10;
+    int b = 2;
+
+    // Performing and printing arithmetic operations
+    cout << "Sum = " << a + b << "\n";
+    cout << "Difference = " << a - b << "\n";
+    cout << "Product = " << a * b << "\n";
+    cout << "Quotient = " << a / b << "\n";
+
+    return 0;
+}

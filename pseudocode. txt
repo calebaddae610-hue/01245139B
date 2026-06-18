@@ -1,0 +1,14 @@
+BEGIN
+    DECLARE INTEGER a, b
+    DECLARE INTEGER s, D, m, q
+
+    OUTPUT "Enter first number: "
+    INPUT a
+    OUTPUT "Enter second number: "
+    INPUT b
+
+    OUTPUT "Sum = ", (a + b)
+    OUTPUT "Difference = ", (a - b)
+    OUTPUT "Product = ", (a * b)
+    OUTPUT "Quotient = ", (a / b)
+END
